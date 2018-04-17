@@ -162,7 +162,7 @@ php m.php -h 127.0.0.1 -p 112112 -op restore
 NB: The -h address can now contain multiple memcache servers in a 'pool' configuration
     these can be listed in a comma separated list and each may optionally have a port
     number associated with it by separating with a colon. See below for example: 
-        192.168.1.100:11211,192.168.1.101:11211,192.168.1.100:11212
+        192.168.1.100:11211,192.168.1.101:11211,192.168.1.100:11211
     In the above example the are two physical machines but 192.168.1.100 is running two
     instances of memcached. 
     The servers MUST be listed here in the same order that is used to write to the pool
